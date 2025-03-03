@@ -1,0 +1,5 @@
+config BR2_PACKAGE_QT_PWM_APP
+    bool "Qt PWM App"
+    depends on BR2_PACKAGE_QT6
+    help
+      A Qt6 application to control an LED on Raspberry Pi via PWM using QML.
